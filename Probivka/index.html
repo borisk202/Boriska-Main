@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>APPX</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="cordova.js"></script>
+    <script src="main.js"></script>
+</head>
+<body>
+    <div id="main-screen" class="screen">
+        <div class="container">
+            <input type="text" id="input-field" placeholder="Введи данные">
+            <div id="result-label"></div>
+            <progress id="progress-bar" value="0" max="100"></progress>
+            <div id="ad-banner">Реклама: @xael5 в ТГ — мощные хаки!</div>
+            <button id="subscribe-btn">Подписка</button>
+            <button id="software-info-btn">Инфо о ПО</button>
+            <button id="ip-logger-btn">IP Logger</button>
+            <button id="anti-ip-logger-btn">Anti IP Logger</button>
+            <button id="device-fingerprint-btn">Device Fingerprint</button>
+            <button id="network-scanner-btn">Network Scanner</button>
+            <button id="password-cracker-btn">Password Cracker</button>
+        </div>
+    </div>
+    <div id="main2-screen" class="screen" style="display: none;">
+        <div class="container">
+            <h1>Main2: Все проверки пройдены, сука!</h1>
+        </div>
+    </div>
+    <div id="popup" class="popup" style="display: none;">
+        <div class="popup-content">
+            <h2 id="popup-title"></h2>
+            <p id="popup-message"></p>
+            <p>Реклама: @xael5</p>
+            <button id="popup-btn">OK</button>
+        </div>
+    </div>
+</body>
+</html>
